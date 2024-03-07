@@ -32,3 +32,37 @@ say_goodbye(name)
 
 #concatenate
 print("Hello my name is "+name+"and i have "+str(age)+" years old")
+
+#array
+#equal to
+#list
+color = ["white", "red", "black", "blue"]
+number = [1,1,4,2,3]
+print(color)
+print(number)
+#add
+color.append("pink")
+print(color)
+
+#travel the list
+# for(i=0;color.len;i++)
+#   let temp = color[i];
+#   console.log(temp)
+for i in color:
+    print(i)
+for i in number:
+    print(i)
+
+print(color[0])
+
+#dictionary
+me={
+    "first name": "Fernanda",
+    "last name": "Ugalde",
+    "age": 20
+}
+print(me["first name"])
+
+me["age"] = 99
+me["color"]="blue"
+print(me)
